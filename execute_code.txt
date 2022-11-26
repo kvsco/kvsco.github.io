@@ -1,3 +1,5 @@
 '로컬서버 실행하기'
 bundle exec jekyll serve
 
+'번들 업데이트?'
+bundle install
