@@ -20,7 +20,7 @@ title                    : "kvsco Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "유용빈"
-description              : "An amazing website.-_-"
+description              : "This is Awesome kvsco's Blog"
 url                      : "https://kvsco.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kvsco/kvsco.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
