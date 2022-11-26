@@ -11,16 +11,16 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
-title                    : "kvsco Blog"
+title                    : "Kvsco's archive"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "유용빈"
-description              : "This is Awesome kvsco's Blog"
+description              : "This is Awesome kvsco's Archive (Blog)"
 url                      : "https://kvsco.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kvsco/kvsco.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "유용빈 (You Yong-Bin)"
-  avatar           : "/assets/images/profile2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "유용빈"
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "1년차 개발자 (2022-03 ~ )"
   location         : "서울특별시"
   email            : "nngjk@naver.com"
@@ -115,10 +115,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:naver@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://kvsco.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -293,3 +293,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
