@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "About Me"
-    url: "/About/"
+    url: "https://kvsco.github.io/About/"
   - title: "Categories"
-    url: "/Categories/"
+    url: "https://kvsco.github.io/Categories/"
   - title: "독서"
-    url: "/Book/"
+    url: "https://kvsco.github.io/Book/"
   - title: "Tag"
-    url: "/Tag/"
+    url: "https://kvsco.github.io/Tag/"
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
