@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Kvsco's archive"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "유용빈(You Yongbin)"
+name                     : "You Yong bin"
 description              : "This is Awesome kvsco's Archive (Blog)"
 url                      : "https://kvsco.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "유용빈"
+  name             : "유용빈<br>(You Yongbin)"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "1년차 개발자 <br>(2022-03 ~ )<br>"
   location         : "서울특별시"

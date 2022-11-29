@@ -3,6 +3,5 @@ permalink: /tags/
 title: "태그"
 # autor_profile: true
 # toc: true
+layout: tags
 ---
-
-## 태그 페이지
